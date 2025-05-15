@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veterinária Oliveira</title>
-  <link rel="stylesheet" href="Styles/global.css">
+  <link rel="stylesheet" href="Styles/index.css">
 
   <!--Fontes-->
 
@@ -14,20 +14,19 @@
   <header class="navegacao-header">
     <div class="navegacao-primaria">
       <div class="cabecalho-navegacao">
-        <span class="logo-navegacao">Veterinária Oliveira</span>
-        <input class="navegacao-busca" type="text" placeholder="Buscar...">
+        <span class="logo-navegacao">Veterinária Oliveira</span>        
+      </div>
+
+      <div class="buscar">
+        <input class="navegacao-busca" type="text" placeholder="O que deseja pesquisar?">
       </div>
 
       <div class="cabecalho-navegacao-icons">
-        <img src="Asstes/icons/whatsapp.svg">
-        <img src="Asstes/icons/coracao.svg">
-        <img src="Asstes/icons/sacola-de-compras.svg">     
-      </div>
-
-      <div class="cabecalho-navegacao-entrar">
-        <img src="Asstes/icons/do-utilizador.svg">
-        <h3>Entrar <br> cadastre-se</h3>
-      </div>
+        <a href="#"><img src="Asstes/icons/whatsapp.svg"></a>
+        <a href="#"><img src="Asstes/icons/coracao.svg"></a>
+        <a href="#"><img src="Asstes/icons/sacola-de-compras.svg"></a>
+        <a  class="Cadastro" href="#"><img src="Asstes/icons/do-utilizador.svg"><strong>Entre<br>Cadastro</strong></a>
+      </div>      
     </div>
 
     <div class="navegacao-secundaria">
@@ -43,59 +42,59 @@
   </header>
 
   <main>
-    <header class="servicos-main">
+    <div class="desconto-page">
+      <img src="Asstes/icons/relogio-tres.svg" alt="">
+      <h5>Assinatura por 20% de desconto</h5>
+    </div>
+    <header class="servicos-main">     
       <div class="servicos-main-primaria">
-        <span><a href="#">Adoção</a></span>
-        <span><a href="#">Adestramento</a></span>
-        <span><a href="#">Cuidados</a></span>
-        <span><a href="#">Medicamentos</a></span>
-        <span><a href="#">Blog comunidade</a></span>
+        <span class="servicos-main-span"><a href="#">Adoção</a></span>
+        <span class="servicos-main-span"><a href="#">Adestramento</a></span>
+        <span class="servicos-main-span"><a href="#">Cuidados</a></span>
+        <span class="servicos-main-span"><a href="#">Medicamentos</a></span> 
+        <span class="servicos-main-span"><a href="#">Blog comunidade</a></span>
       </div>
-      <div class="servicos-slideshow">
-        <a href="seu-link1">
-          <img src="imagem1.jpg" alt="Imagem 1">
-        </a>
-        <a href="seu-link2">
-          <img src="imagem2.jpg" alt="Imagem 2">
-        </a>
-        <a href="seu-link3">
-          <img src="imagem3.jpg" alt="Imagem 3">
-        </a>
-      </div>
-       <div class="servicos-footer">
-          <figure>
-            <a href="#">
-              <img src="Asstes/icons/relogio-tres.svg">
-              <h3>Receba em horas</h3>
-              <span>Ver regras</span>
-            </a>
-          </figure>
-          <figure>
-            <a href="#">
-              <img src="Asstes/icons/caminhoes-em-movimento.svg">
-              <h3>Frete Gratis Nacional</h3>
-              <span>Ver regras</span>
-            </a>
-          </figure>
+      
+      <div class="servicos-footer">
+        <figure class="servicos-footer-a">             
+          <a class="servicos-footer-a-span" href="#">
+            <img src="Asstes/icons/relogio-tres.svg">
+            <strong>Receba em horas <br>Ver regras</strong>              
+          </a>
+        </figure>
+        <figure class="servicos-footer-a">             
+          <a class="servicos-footer-a-span" href="#">
+           <img src="Asstes/icons/caminhoes-em-movimento.svg">
+            <strong>Frete Gratis <br>confira</strong>              
+          </a>
+        </figure>
 
-         <figure>
-            <a href="#">
-              <img src="Asstes/icons/verificacao-de-cartao-de-credito.svg">
-              <h3>Até 3x sem juros</h3>
-                <span>Ver regras</span>
-            </a>
-          </figure>
-          <figure>
-            <a href="#">
-              <img src="Asstes/icons/casa.svg">
-              <h3>Retire na loja</h3>
-              <span>Saiba mais</span>
-            </a>
-          </figure>      
-       </div>
+        <figure class="servicos-footer-a">             
+          <a class="servicos-footer-a-span" href="#">
+            <img src="Asstes/icons/relogio-tres.svg">
+            <strong>Receba em horas <br>Ver regras</strong>              
+          </a>
+        </figure>
+        <figure class="servicos-footer-a">             
+          <a class="servicos-footer-a-span" href="#">
+            <img src="Asstes/icons/verificacao-de-cartao-de-credito.svg">
+            <strong>Até 3x S/Juros <br>Ver regras</strong>              
+          </a>
+        </figure>
+        <figure class="servicos-footer-a">             
+          <a class="servicos-footer-a-span" href="#">
+            <img src="Asstes/icons/loja-alt.svg">
+            <strong>Retire na loja <br>Saiba mais</strong>              
+          </a>
+        </figure>
+      </div>
     </header>
     
   </main>
   
 </body>
 </html>
+
+
+
+ 

@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  max-width: 1220px;
-  padding-block: 60px;
-  padding-inline: 160px;
+body{
+ max-width: 1440px;
 }
 
 img {

@@ -1,0 +1,62 @@
+.desconto-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: beige;
+  padding-block: 10px;
+
+  img {
+    width: 20px;
+    
+  }
+}
+.servicos-main{
+  align-items: center;
+  padding-block: 20px;
+  padding-inline: 160px;
+  
+    
+}
+
+.servicos-main-primaria{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   
+}
+
+.servicos-main-span{
+  padding-block: 20px;
+  
+  background-image: url(../Asstes/Images/fundo-liso.webp);
+  image-resolution: cover;
+  align-items: center;
+}
+
+.servicos-footer{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.servicos-footer-a{
+  display: flex;
+  flex-direction: row;  
+  
+}
+
+.servicos-footer-a-span{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 10px;
+  background-color: rgb(185, 190, 190);
+  width: auto;
+  height: 60px;
+  padding-inline: 10px;
+  
+}
+
+

@@ -1,0 +1,66 @@
+.navegacao-header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  
+  
+  
+}
+
+.navegacao-primaria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #6b8e23; 
+  padding-block: 50px;
+  justify-content: space-between; 
+  padding-inline: 60px;
+  
+  
+}
+
+.cabecalho-navegacao{
+  display: flex;
+  flex-direction: row;
+    
+}
+
+.logo-navegacao{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(254, 254, 255); 
+  font-size: 30px;
+  
+}
+
+.navegacao-busca {
+    width: auto;
+    border-radius: 1rem;
+    padding-inline: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cabecalho-navegacao-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.Cadastro{
+  display: flex;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
